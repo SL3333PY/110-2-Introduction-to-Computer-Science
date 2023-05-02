@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suprise.shi_bibi_dream_factory.EventPageController">
+   <children>
+      <Button fx:id="eventButton" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#onEventPressed" text="事件記錄簿">
+         <font>
+            <Font name="Yu Mincho Demibold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="clothButton" layoutX="154.0" layoutY="20.0" mnemonicParsing="false" onAction="#onClothPressed" text="北北的衣櫃">
+         <font>
+            <Font name="Yu Mincho Demibold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="280.75" layoutY="343.5" text="第  3 / 9  頁">
+         <font>
+            <Font name="Yu Mincho Demibold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="csHigh" fitHeight="200.0" fitWidth="320.0" layoutX="10.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.imgur.com/5D8OPaO.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="csHighLocked" fitHeight="200.0" fitWidth="320.0" layoutX="10.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://i.imgur.com/HRGTp9v.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="rightButton" layoutX="426.0" layoutY="330.0" mnemonicParsing="false" onAction="#onRightPressed" text="▶">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="leftButton" layoutX="190.0" layoutY="330.0" mnemonicParsing="false" onAction="#onLeftPressed" text="◀">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="560.0" layoutY="20.0" mnemonicParsing="false" onAction="#onBackPressed" text="返回">
+         <font>
+            <Font name="Yu Mincho Demibold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="csHighLabel" layoutX="342.0" layoutY="101.0" text="經過大學四年的辛苦磨練&#10;施北北因系上巨大的壓力&#10;導致頭髮稀疏&#10;由於施伯伯的天資聰穎&#10;參與了許許多多的活動&#10;皆有精彩的表現&#10;最終成為傳說中的施北北！！！！" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

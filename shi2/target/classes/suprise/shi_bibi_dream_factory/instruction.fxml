@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suprise.shi_bibi_dream_factory.HelloApplication">
+   <children>
+      <Label text="遊 戲 說 明" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Yu Mincho Demibold" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="102.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <Label contentDisplay="TOP" prefHeight="124.0" prefWidth="260.0" text="&#9;感謝您遊玩施北北夢工廠。&#10;&#10;&#9;本遊戲為劇情導向遊戲，玩家藉由扮演施北&#10;北的撫養者，可以在遊戲中陪施北北成長，遊戲&#10;中包含許多的選擇及成長支線，這些選擇及事&#10;件會影響施北北的人生走向。&#10;&#10;&#9;希望您能玩得愉快！" textOverrun="CLIP">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="本遊戲多為滑鼠操作，簡單易上手" textFill="#55176a">
+         <VBox.margin>
+            <Insets left="60.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Label prefHeight="15.0" prefWidth="260.0" text="快來培育最強的施北北～" textAlignment="RIGHT" textFill="#561212">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="50.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Yu Mincho Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="～並且與北北邂逅吧" textAlignment="RIGHT" textFill="#561212">
+         <font>
+            <Font name="Yu Mincho Regular" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="20.0" left="162.0" right="20.0" />
+         </VBox.margin>
+      </Label>
+      <Button fx:id="exitButton" mnemonicParsing="false" onAction="#onExitPressed" text="關閉說明">
+         <font>
+            <Font name="Yu Mincho Demibold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="112.5" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
